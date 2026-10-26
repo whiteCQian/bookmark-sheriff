@@ -1,0 +1,11 @@
+node_modules/
+.wxt/
+.output/
+coverage/
+*.log
+.env*
+!.env.example
+.cache-browser/
+.browser-smoke-profile/
+.browser-test-profile/
+.pnpm-store/

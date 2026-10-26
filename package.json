@@ -1,0 +1,40 @@
+{
+  "name": "bookmind-next",
+  "description": "自动感知原生收藏，安排本地复盘提醒的 Chrome 扩展",
+  "version": "0.3.1",
+  "private": true,
+  "packageManager": "pnpm@11.25.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wxt -b chrome",
+    "build": "wxt build -b chrome",
+    "zip": "wxt zip -b chrome",
+    "package:verified": "node scripts/package.mjs",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "browser:install": "node scripts/install-test-browser.mjs",
+    "test:browser": "node scripts/browser-smoke.mjs",
+    "test:zhihu-browser": "node scripts/zhihu-browser-regression.mjs",
+    "test:zhihu-direct-browser": "node scripts/zhihu-direct-browser.mjs",
+    "test:x-browser": "node scripts/x-browser-regression.mjs",
+    "check": "node scripts/verify.mjs",
+    "postinstall": "wxt prepare"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.0",
+    "@types/chrome": "^0.1.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@wxt-dev/module-react": "^1.1.0",
+    "jsdom": "^26.1.0",
+    "playwright": "1.62.1",
+    "tailwindcss": "^4.1.0",
+    "typescript": "^5.9.0",
+    "vitest": "^3.2.0",
+    "wxt": "^0.20.0"
+  }
+}
