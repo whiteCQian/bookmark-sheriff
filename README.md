@@ -15,6 +15,26 @@ BookMind Next (收藏警长) is a local-first Chrome extension for turning your 
 
 This project does not read cookies, passwords, or full-page text. The optional X integration stores a short visible post preview to help identify the saved link. Cover images may be loaded from their original image host.
 
+## Product screenshots
+
+These screenshots use fictional demo entries only; they contain no personal bookmark data.
+以下界面图使用虚构示例内容，不包含真实收藏数据。
+
+### Review dashboard
+
+![BookMind Next review dashboard](assets/screenshots/dashboard.png)
+
+### Browser popup
+
+![BookMind Next browser popup](assets/screenshots/popup.png)
+
+<details>
+<summary>Settings</summary>
+
+![BookMind Next settings](assets/screenshots/options.png)
+</details>
+
+
 ## Build and install
 
 Requirements: Node.js 22.12 or newer and pnpm 11.25.0.
