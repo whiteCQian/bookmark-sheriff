@@ -1,10 +1,10 @@
 # BookMind Next — 收藏警长
 
-**Turn saved links into plans you actually revisit.**
+**Saved it? The sheriff would like a word.**
 
-BookMind Next (收藏警长) is a local-first Chrome extension for people who save useful pages and forget to return to them. It records new browser bookmarks and selected native favorites, then schedules reminders to revisit the original page.
+BookMind Next (收藏警长) is a local-first Chrome extension for turning your heroic pile of saved links into reminders you might actually open. The sheriff does not issue tickets; it just taps the badge when a link has waited long enough.
 
-收藏警长想解决“只收藏、不回看”：沿用网站自己的收藏操作，在本机记录链接和复盘计划，到期后提醒你回到原页面。
+收藏夹不是“改天再看”研究院，更不是网页养老院。收藏警长不罚款、不抓人，只负责给链接发回访通知：“这条你收藏时挺积极，什么时候回来看看？”
 
 ## What it does
 
